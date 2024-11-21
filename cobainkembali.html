@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Belajar HTML Dasar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web Sederhana</title>
+    <!-- Tambahkan Tailwind CSS melalui CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Halo, Dunia!</h1>
-    <p>Selamat datang di belajar HTML.</p>
+<body class="font-sans p-6 leading-relaxed bg-gray-50 text-gray-900">
+    <!-- Paragraf Deskripsi Diri -->
+    <h1 class="text-4xl font-bold text-center text-purple-700">Tentang Saya</h1>
+    <p class="mt-4 text-lg text-gray-700">
+        Halo, nama saya Pria Wulandari. Saya seorang penggemar teknologi dan senang mempelajari hal-hal baru, terutama dalam bidang pengembangan web dan desain. Saya juga menyukai seni, musik, dan kegiatan luar ruangan.
+    </p>
+
+    <!-- Daftar Hobi (Unordered List) -->
+    <h2 class="mt-8 text-2xl font-semibold text-purple-600 border-b-2 border-gray-300 pb-2">Hobi Saya</h2>
+    <ul class="mt-4 list-disc pl-5 text-gray-700">
+        <li>Membaca buku</li>
+        <li>Mendengarkan musik</li>
+        <li>Berkemah</li>
+        <li>Fotografi</li>
+    </ul>
+
+    <!-- Tabel Informasi Kontak -->
+    <h2 class="mt-8 text-2xl font-semibold text-purple-600 border-b-2 border-gray-300 pb-2">Informasi Kontak</h2>
+    <table class="mt-4 w-full border-collapse border border-gray-300">
+        <thead>
+            <tr class="bg-red-700 text-white">
+                <th class="px-4 py-2 border border-gray-300 text-left">Jenis Kontak</th>
+                <th class="px-4 py-2 border border-gray-300 text-left">Detail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="px-4 py-2 border border-gray-300">Email</td>
+                <td class="px-4 py-2 border border-gray-300">dariwlan2@gmail.com</td>
+            </tr>
+            <tr class="bg-gray-100">
+                <td class="px-4 py-2 border border-gray-300">Telepon</td>
+                <td class="px-4 py-2 border border-gray-300">+62 83161867697</td>
+            </tr>
+            <tr>
+                <td class="px-4 py-2 border border-gray-300">Alamat</td>
+                <td class="px-4 py-2 border border-gray-300">Jl. Ibrahim Singadilaga Gg Nusa Indah 3</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
